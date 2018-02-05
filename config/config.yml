@@ -1,0 +1,9 @@
+office:
+  ip:
+    - '66.171.165.122'
+    - '207.253.240.26'
+port: 5000
+base: server
+graphql:
+  dev: https://qa-playster-graphql.playster.com
+  prod: https://graph.playster.com

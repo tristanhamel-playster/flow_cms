@@ -1,0 +1,20 @@
+
+extends:
+  - '@playster'
+  - plugin:vue/recommended
+env:
+  node: true
+  jest: true
+globals:
+  document: false
+  navigator: false
+  window: false
+  FuseBox: false
+parserOptions:
+  ecmaVersion: 2017
+rules:
+  'vue/name-property-casing': 'off'
+  'vue/order-in-components': 'off'
+  'vue/no-side-effects-in-computed-properties': 'off'
+  'vue/require-prop-types': 'off' # TO BE ENFORCED
+  'vue/require-default-prop': 'off' # TO BE ENFORCED

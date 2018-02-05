@@ -1,0 +1,68 @@
+{
+  "name": "flow_cms",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "description": "cms for playster membership flows, plans and blocks",
+  "scripts": {
+    "start": "node server",
+    "dev": "node fuse -d",
+    "build": "node fuse"
+  },
+  "author": "Jomedia",
+  "keywords": [
+    "playster",
+    "jomedia"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "apollo-client": "^2.2.1",
+    "bootstrap-sass": "3.3.*",
+    "bunyan": "^1.8.12",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "graphql": "^0.12.3",
+    "http-proxy-middleware": "^0.17.4",
+    "js-yaml": "^3.10.0",
+    "lodash": "^4.17.4",
+    "moment": "2.18.*",
+    "pug": "2.0.0-rc.4",
+    "typescript": "^2.7.1",
+    "vue": "2.4.*",
+    "vue-class-component": "5.0.*",
+    "vue-multiselect": "2.0.*",
+    "vue-router": "2.7.*",
+    "vue-template-compiler": "2.4.*",
+    "vue-template-es2015-compiler": "1.5.*",
+    "vuedraggable": "2.14.*",
+    "vuex": "2.3.*",
+    "vuex-persistedstate": "2.0.*",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "@playster/eslint-config": "1.0.1",
+    "autoprefixer": "7.2.5",
+    "babel-core": "6.26.0",
+    "babel-jest": "22.1.0",
+    "babel-plugin-graphql-tag": "1.3.0",
+    "babel-plugin-transform-object-rest-spread": "6.26.*",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-stage-2": "6.24.1",
+    "clean-css": "^4.1.9",
+    "consolidate": "^0.15.0",
+    "eslint": "4.15.0",
+    "eslint-config-standard": "11.0.0-beta.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1",
+    "eslint-plugin-vue": "4.2.0",
+    "fuse-box": "3.0.2",
+    "node-sass": "^4.7.2",
+    "nodemon": "1.12.5",
+    "postcss-flexbugs-fixes": "^3.3.0",
+    "postcss-flexibility": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  }
+}
